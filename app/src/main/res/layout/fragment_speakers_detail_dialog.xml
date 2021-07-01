@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.SpeakersDetailDialogFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@color/homepage_cardBackgroundColor">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/homepage_cardBackgroundColor"
+                    >
+
+                    <ImageView
+                        android:id="@+id/ivDetailSpeakerImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvDetailSpeakerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Speaker Name"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="@dimen/ScheduleItem_topicTitle"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDetailSpeakerJobtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/scheduleDetail_descriptionAndHourColor"
+                        android:text="Jobtitile"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/tvDetailSpeakerWorkplace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="Workplace"
+                        android:textColor="@color/scheduleDetail_descriptionAndHourColor"
+                        android:textSize="@dimen/ScheduleItem_name" />
+                    <TextView
+                        android:id="@+id/tvDetailSpeakerDescription"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Speaker Detail"
+                        android:textColor="@color/scheduleDetail_descriptionAndHourColor"
+                        android:textSize="@dimen/ScheduleItem_name"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProtoConf" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/ColorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/BackgroundColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ColorSecondary</item>
+        <item name="colorSecondaryVariant">@color/ColorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorSecondary</item>
+
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+
+
+
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+</resources>
