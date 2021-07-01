@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:text="Conference name"
                 android:textColor="@color/white"
-                android:textSize="@dimen/ScheduleItem_topicTitle"
+                android:textSize="18dp"
                 android:ellipsize="end"
                 android:lines="1" />
 
@@ -38,7 +38,7 @@
                 android:lines="1"
                 android:text="Speaker name"
                 android:textColor="@color/schedule_name_textColor"
-                android:textSize="10dp"
+                android:textSize="14dp"
                 />
             <TextView
                 android:id="@+id/tvItemScheduleHour"
@@ -47,7 +47,7 @@
                 android:layout_marginTop="3dp"
                 android:text="00:00 AM"
                 android:textColor="@color/schedule_name_textColor"
-                android:textSize="@dimen/ScheduleItem_name"
+                android:textSize="13dp"
                 />
             <TableRow
                 android:layout_width="340dp"

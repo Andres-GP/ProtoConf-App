@@ -7,15 +7,15 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/navPersonFragment"
+        android:id="@+id/navScheduleFragment"
         android:icon="@drawable/ic_schedule"
         android:title="Schedule" />
     <item
-        android:id="@+id/navMapFragment"
+        android:id="@+id/navPersonFragment"
         android:icon="@drawable/ic_authors"
         android:title="Speakers" />
     <item
-        android:id="@+id/navScheduleFragment"
+        android:id="@+id/navMapFragment"
         android:icon="@drawable/ic_ubication"
         android:title="Map" />
 

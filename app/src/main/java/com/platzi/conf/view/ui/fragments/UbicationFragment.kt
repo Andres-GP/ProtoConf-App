@@ -51,7 +51,7 @@ class UbicationFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClic
 
            val bitmapDraw = context?.applicationContext.let { view?.context?.let { it1 ->
                ContextCompat.getDrawable(
-                   it1,R.drawable.logo_platzi)
+                   it1,R.drawable.logo_protoconf)
            } } as BitmapDrawable
            val smallMarker = Bitmap.createScaledBitmap(bitmapDraw.bitmap, 100, 100, false)
            markerOptions.icon(BitmapDescriptorFactory.fromBitmap(smallMarker))

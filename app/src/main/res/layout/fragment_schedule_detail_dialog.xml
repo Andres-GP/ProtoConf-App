@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@color/homepage_cardBackgroundColor"
     tools:context=".view.ui.fragments.ScheduleDetailDialogFragment">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -58,7 +58,9 @@
                         android:layout_centerInParent="true"
                         android:ellipsize="end"
                         android:gravity="center"
-                        android:lines="1"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:lines="2"
                         android:text="Conference Title"
                         android:textColor="#FFFFFF"
                         android:textSize="30sp"
@@ -94,7 +96,7 @@
                             android:id="@+id/tvDetailConferenceSpeaker"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="0dp"
+                            android:layout_marginTop="5dp"
                             android:gravity="center_horizontal"
                             android:text="Speaker"
                             android:textColor="@color/cardview_light_background"
@@ -105,12 +107,12 @@
                             android:id="@+id/tvDetailConferenceDescription"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginBottom="10dp"
                             android:gravity="center_horizontal"
                             android:text="Text detail"
                             android:textColor="@color/homepage_descriptionContent_textColor"
-                            android:textSize="15sp"
+                            android:textSize="18dp"
                             />
 
 

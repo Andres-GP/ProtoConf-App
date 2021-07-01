@@ -25,7 +25,7 @@
     <dimen name="scheduleItem_exhibitorPhoto_height">65dp</dimen>
 
     <!--Text-->
-    <dimen name="ScheduleItem_topicTitle">16dp</dimen>
-    <dimen name="ScheduleItem_name">12dp</dimen>
+    <dimen name="ScheduleItem_topicTitle">19dp</dimen>
+    <dimen name="ScheduleItem_name">16dp</dimen>
 
 </resources>

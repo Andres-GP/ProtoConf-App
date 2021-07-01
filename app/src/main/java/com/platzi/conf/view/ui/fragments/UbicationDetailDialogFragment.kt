@@ -49,18 +49,7 @@ class UbicationDetailDialogFragment : DialogFragment() {
         tvUbicationPlaceName.text    = ubication.name
         tvUbicationDirection.text    = ubication.address
         tvUbicationPhoneNumber.text  = ubication.phone
-        tvUbicationWebsite.text      = ubication.website
-        llPhonePlace.setOnClickListener {
-            val intent = Intent (Intent.ACTION_DIAL).apply{
-                data = Uri.parse ("tel: ${ubication.phone}")
-            }
-            startActivity(intent)
-        }
-        llWebsite.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse(ubication.website)
-            startActivity(intent)
-        }
+
     }
 
     override fun onStart() {
