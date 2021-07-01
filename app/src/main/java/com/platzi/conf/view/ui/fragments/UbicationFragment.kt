@@ -47,11 +47,11 @@ class UbicationFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClic
            val centerMark = LatLng(ubication.latitude, ubication.longitude)
            val markerOptions = MarkerOptions()
            markerOptions.position(centerMark)
-           markerOptions.title("PlatziConf")
+           markerOptions.title("Proto Conf")
 
            val bitmapDraw = context?.applicationContext.let { view?.context?.let { it1 ->
                ContextCompat.getDrawable(
-                   it1,R.drawable.logo_protoconf)
+                   it1,R.drawable.protmpany_logo_map)
            } } as BitmapDrawable
            val smallMarker = Bitmap.createScaledBitmap(bitmapDraw.bitmap, 100, 100, false)
            markerOptions.icon(BitmapDescriptorFactory.fromBitmap(smallMarker))

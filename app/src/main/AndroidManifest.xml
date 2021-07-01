@@ -11,7 +11,7 @@
         android:theme="@style/Theme.ProtoConf">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/GOOGLEMAPS_API_KEY">
+            android:value="AIzaSyD-nLb9S7qMv4ZQPYiEUzb5YHEVf2099P8">
 
         </meta-data>
         <activity android:name="com.platzi.conf.view.ui.activities.MainActivity"></activity>
