@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.platzi.conf">
+    package="com.proto.conf">
 
     <application
         android:allowBackup="true"
@@ -14,8 +14,8 @@
             android:value="AIzaSyD-nLb9S7qMv4ZQPYiEUzb5YHEVf2099P8">
 
         </meta-data>
-        <activity android:name="com.platzi.conf.view.ui.activities.MainActivity"></activity>
-        <activity android:name=".view.ui.activities.SplashscreenActivity">
+        <activity android:name="com.proto.conf.view.ui.activities.MainActivity"></activity>
+        <activity android:name="com.proto.conf.view.ui.activities.SplashscreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

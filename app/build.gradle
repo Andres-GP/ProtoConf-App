@@ -10,13 +10,13 @@ android.buildTypes.each { type ->
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "com.platzi.conf"
+        applicationId "com.proto.conf"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
