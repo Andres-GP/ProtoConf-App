@@ -4,7 +4,7 @@ Beautiful ProtoConf's tracking app, Native Android app with Firebase and Firesto
 
 ---
 
-Find it on Google's Playstore:
+Find it on Google's Playstore: https://play.google.com/store/apps/details?id=com.proto.conf
 
 ![Features Graph](https://user-images.githubusercontent.com/81189565/130145546-e46da91c-877e-4d60-bc4f-f050405bb897.png)
 
